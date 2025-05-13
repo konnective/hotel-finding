@@ -111,6 +111,6 @@ Route::name('frontend.')->group(function () {
 });
 
 Route::get('/trivago', function () {
-    return view('frontend.trivago.new-index');
+    return view('frontend.trivago.index');
 });
 
